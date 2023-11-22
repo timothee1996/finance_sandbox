@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pirogue"
+requires-python = ">=3.10"
+version = "0.0.1"
+license = {file = "LICENSE"}
+description = "Gather all useful tools for financial analysis"
+authors = [
+    {name = "Timothée Guy", email = "timotheeguy1@gmail.com"},
+]
+dependencies = []
+
+[tool.setuptools.packages]
+find = {}
